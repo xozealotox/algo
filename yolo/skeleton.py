@@ -79,5 +79,4 @@ def main(opt):
 
 if __name__ == '__main__':
     opt = parse_opt()
-    print(os.path.abspath(ROOT))
     main(opt)
